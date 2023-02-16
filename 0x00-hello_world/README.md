@@ -1,2 +1,1 @@
-hello World
-C language
+hello Worl
