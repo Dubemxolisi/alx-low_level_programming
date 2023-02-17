@@ -1,19 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabetic
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char low;
-for (low = 'a'; low <= 'z'; low++)
-putchar(low);
-
-for (low = 'A'; low <= 'Z'; low++)
-putchar(low);
+char c;
+for (c = 'a'; c <= 'Z'; c++)
+putchar(c);
 putchar('\n');
 
 return (0);
