@@ -4,12 +4,10 @@
  * _strcmp - Compares pointers to two strings.
  * @s1: A pointer to the first string to be compared.
  * @s2: A pointer to the second string to be compared.
- * Return: if str1 < str2, the nagative difference of the first unmatched characters.
+ * Return: if str1 < str2, the nagative difference.
  * if str1 == str, 0.
  * if str1 == str2, the positive difference of the first unmatched characters.
- *
  */
-
 int _strcmp(char *s1, char *s2)
 
 {
