@@ -28,7 +28,7 @@ a = malloc(sizeof(int *) * height);
 for (i = 0; i < height; i++)
 {
 
-[i] = malloc(sizeof(int) * width);
+a[i] = malloc(sizeof(int) * width);
 
 if (a[i] == NULL)
 {
